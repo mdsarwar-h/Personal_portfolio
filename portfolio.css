@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+#name, #about_me {
+    color: black;
+}
+
+.introduction {
+    position: absolute;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+#contact,#contact_info {
+    list-style: none; /* Remove default bullet points */
+    margin-left: 10px;
+    padding: 0;
+    color: black; 
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+#contact_info li a{
+    border: 1px solid black;
+}
+
+#github {
+    text-align: right;
+    margin-right: 10px;
+}
+
+#github a:hover {
+    background-color: black; /* Background color when mouse hovers */
+    color: white; /* Text color when mouse hovers */
+}
+
